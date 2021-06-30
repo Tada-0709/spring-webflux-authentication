@@ -26,8 +26,8 @@ public class Account {
   String password;
   String salt;
 
-  AccountStatus accountStatus;
   Profile profile;
+  AccountStatus accountStatus;
   Instant createdDate;
   Instant updatedDate;
 

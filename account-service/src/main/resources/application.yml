@@ -1,2 +1,12 @@
 server:
   port: 8081
+
+mongodb:
+  name: accountdb
+  url: mongodb://localhost:27017
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    operationsSorter: method

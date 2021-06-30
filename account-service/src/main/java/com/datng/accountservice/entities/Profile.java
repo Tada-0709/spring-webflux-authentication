@@ -13,5 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Profile {
-
+  String phone;
+  String fullName;
+  String age;
 }
